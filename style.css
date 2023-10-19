@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500&family=Cardo&family=Pinyon+Script&family=Unna:wght@400;700&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	margin: 0;
+	color: #85A6B5;
+/*	background: #1D2D40;*/
+	background: white;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+hr.belowNavTitle {
+	border: 1px solid #85A6B5;
+	margin: 0;
+}
+
+.aboveNav {
+	display: flex;
+	justify-content: center;
+	font-family: 'Bodoni Moda';
+	font-size: 35px;
+/*	margin-block: 1%;*/
+/*	margin-top: 4%;*/
+/*	color: #3D2D23;*/
+	margin: 0;
+	color: #85A6B5;
+}
+
+.aboveNavB {
+	display: flex;
+	justify-content: center;
+	font-family: 'Bodoni Moda';
+	font-size: 18px;
+/*	margin-block: 1%;
+	margin-top: 2%;*/
+/*	color: #3D2D23;*/
+	color: #85A6B5;
+}
+
+.firstDiv {
+	width: 100vw;
+	margin-top: 1%;
+	margin-bottom: 1%;
+/*	background: #1D2D40;*/
+}
+
+.navItems {
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	justify-content: space-between;
+	justify-content: space-around;
+}
+
+.navItem {
+	font-family: 'Cardo';
+	font-size: 20px;
+	color: #85A6B5;
+}
+
+.headerItems {
+	/*color: white;
+	background: #1D2D40;*/
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+/*	margin: 10%;*/
+}
+
+.gradientdiv {
+		background-image: linear-gradient(to bottom right, #85A6B5,#1D2D40);
+}
+
+.headerItemA {
+	font-size: 80px;
+	font-family: 'Bodoni Moda';
+	color: #1D2D40;
+	margin-top: 15%;
+	margin-bottom: 15%;
+}
+
+.headerItemB {
+	font-size: 80px;
+	font-family: 'Pinyon Script';
+	color: #85A6B5;
+	margin-top: 15%;
+	margin-bottom: 15%;
+}
+
+.headerItemC {
+	font-size: 80px;
+	font-family: 'Cardo';
+	color: #3D2D23;
+	margin-top: 15%;
+	margin-bottom: 15%;
+}
+
+/*div.headerItems {
+	height: 60vh;
+}*/
+
+div.describeWords {
+	height: 30vh;
+}
+
+.describeWords {
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	justify-content: space-between;
+	justify-content: space-around;
+	margin-block: 2%;
+	margin-top: 0.1%;
+	font-family: 'Bodoni Moda';
+}
+
+div.worksItems {
+/*	height: 70vh;*/
+}
+
+.annualText {
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	font-family: 'Pinyon Script';
+	font-size: 25px;
+}
+
+.worksItems {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	justify-content: space-between;
+	justify-content: space-around;
+	font-family: 'Bodoni Moda'; 
+	font-size: 20px;
+	margin-top: 2%;
+}
+
+.worksYear {
+	color: #85A6B5;
+}
+
+div.exampleImages {
+	height: 50vh;
+}
+
+.exampleImages {
+	display: flex;
+	flex: 1;
+	gap: 1%;
+	justify-content: center;
+	justify-content: space-around;
+	justify-content: space-between;
+	margin-bottom: 10%;
+	margin-left: 12%;
+
+}
+
+.exampleImage {
+	display: flex;
+	width: 60%;
+	transition: .3s ease-in;
+}
+
+.exampleImage:hover {
+  box-shadow: 0 0 18px #333E1F; 
+}
+
+.footerA {
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	justify-content: space-between;
+	justify-content: space-around;
+	font-family: 'Pinyon Script';
+	font-size: 15px;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background: #1D2D40;
+	color: #85A6B5;
+}
+
+.footerA a {
+	font-size: 20px;
+	display: flex;
+	align-items: center;
+	color: #85A6B5;
+}
+
+
+div.twentythree {
+/*	margin-left: 7%;*/
+	display: flex;
+	justify-content: center;
+	width: 100vw;
+	font-size: 30px;
+	color: #1D2D40;
+
+}
+
+div.threeimages {
+	height: 50vh;
+	width: 100vw;
+	margin-bottom: 10%;
+}
+
+.threeimages {
+	display: flex;
+	flex: 1;
+	gap: 1%;
+	justify-content: space-around;
+	width: 30%;
+
+}
+
+/*div.imagewords{
+	height: 100vh;
+}*/
+
+.imagewords {
+	position: absolute;
+	display: flex;
+	justify-content: space-around;
+	width: 100vw;
+	font-family: 'Pinyon Script';
+	font-size: 30px;
+	color: #1D2D40;
+	top: 85%;
+
+}
+
+
+.aboutText {
+	margin: 12%;
+	font-size: 40px;
+	color: #3D2D23;
+}
+
+.highlightword {
+	color: #515728;
+	font-family: 'Pinyon Script';
+	font-size: 44px;
+}
+
+
+
